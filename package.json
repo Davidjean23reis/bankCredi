@@ -1,0 +1,12 @@
+{
+  "name": "bankicredi",
+  "version": "1.0.0",
+  "description": "Projeto do banco credi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Jean",
+  "license": "ISC",
+  "type": "module"
+}
