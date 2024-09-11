@@ -13,16 +13,14 @@ cliente2.cpf = 15050001000;
 cliente2.rg = 2362729;
 cliente2.endereco = "Rua Irajá";
 
-// Criando a conta corrente e ajustando a agência
 const contaCorrenteDavid = new ContaCorrente();
-contaCorrenteDavid.agencia = 1001; // Definindo a agência
+contaCorrenteDavid.agencia = 1001; 
 
-// Realizando operações
-contaCorrenteDavid.depositar(100); // Depositando R$100
+contaCorrenteDavid.depositar(100); 
 
-const valorSacado = contaCorrenteDavid.sacar(50); // Sacando R$50
+const valorSacado = contaCorrenteDavid.sacar(50); 
 console.log(`Valor sacado: R$${valorSacado}`);
 
-contaCorrenteDavid.verSaldo(); // Verifica o saldo restante
+contaCorrenteDavid.verSaldo(); 
 
-console.log(contaCorrenteDavid); // Exibe informações da conta corrente
+console.log(contaCorrenteDavid); 
