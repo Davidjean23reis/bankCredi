@@ -15,6 +15,7 @@ cliente2.endereco = "Rua Irajá";
 
 const contaCorrenteDavid = new ContaCorrente();
 contaCorrenteDavid.agencia = 1001; 
+<<<<<<< HEAD
 contaCorrenteDavid.cliente = cliente1; 
 contaCorrenteDavid.depositar(500);
 
@@ -29,3 +30,14 @@ console.log(contaCorrenteDavid);
 
 
 
+=======
+
+contaCorrenteDavid.depositar(100); 
+
+const valorSacado = contaCorrenteDavid.sacar(50); 
+console.log(`Valor sacado: R$${valorSacado}`);
+
+contaCorrenteDavid.verSaldo(); 
+
+console.log(contaCorrenteDavid); 
+>>>>>>> de1c2da22cf3fd0fbb1af763e21296313f48c1ca
