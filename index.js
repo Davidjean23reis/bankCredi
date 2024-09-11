@@ -3,9 +3,7 @@ class Cliente {
   cpf;
   rg;
   endereco;
-}
-
-class ContaCorrente {
+}class ContaCorrente {
   agencia;
   _saldo = 0;
 
